@@ -26,6 +26,6 @@ time.sleep(1)
 # See values here https://github.com/mjg59/python-temescal/blob/master/temescal/__init__.py
 # temescal.HDMI = 6
 # temescal.ARC = 7
-speaker.set_func(sys.argv[1])
+speaker.set_func(int(sys.argv[1]))
 
 time.sleep(3)
