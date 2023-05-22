@@ -1,0 +1,20 @@
+    "accessories": [
+        {
+            "accessory": "Script2",
+            "name": "HDMI In",
+            "on_value": "6",
+            "on": "~/scripts/homebridge/lg-soundbar-homebridge/soundbar-hdmi-in.py",
+            "off": "~/scripts/homebridge/lg-soundbar-homebridge/soundbar-earc.py",
+            "state": "~/scripts/homebridge/lg-soundbar-homebridge/get-soundbar-state.sh",
+            "unique_serial": "homebrige-hdmi-in"
+        },
+        {
+            "accessory": "Script2",
+            "name": "EARC",
+            "on_value": "20",
+            "on": "~/scripts/homebridge/lg-soundbar-homebridge/soundbar-earc.py",
+            "off": "~/scripts/homebridge/lg-soundbar-homebridge/soundbar-hdmi-in.py",
+            "state": "~/scripts/homebridge/lg-soundbar-homebridge/get-soundbar-state.sh",
+            "unique_serial": "homebrige-e-arc"
+        }
+    ],
